@@ -218,7 +218,7 @@ chart1 = alt.Chart(df).mark_boxplot().encode(
 )
 # Show the chart in Streamlit
 st.altair_chart(chart1, use_container_width=True)
-st.text("Food and beverages sold more in supermaket.")
+st.text("Fashion accessories products  sold more in all 3 supermakets.")
 
 #barplot
 st.header('Barchart of Products and Gross income')
