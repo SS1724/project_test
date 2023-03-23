@@ -159,7 +159,7 @@ st.text("Both positive and negetive correlation is present between independent v
 
 
 
-
+st.title("Pie Chart")
 #custmores per city 
 city_count=df["City"].value_counts()
 # Create labels for the pie chart
