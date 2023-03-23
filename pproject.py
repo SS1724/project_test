@@ -72,7 +72,7 @@ fig_product_sales = px.bar(
     title="<b>Sales by Product Line</b>",
     color_discrete_sequence=["#0083B8"] * len(sales_by_product_line),
     user_colour = st.color_picker(label='Choose a colour for your plot'),
-    c= user_colour,
+    c= "user_colour,
     template="plotly_white",
 )
 fig_product_sales.update_layout(
