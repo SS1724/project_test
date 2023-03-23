@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 st.title("SuperMarketSales Explodatory Data Analysis")
-st.header("Dataset of supermarkes sales")
+st.header("Dataset of supermarket sales")
 df=pd.read_csv('supermarkt_sales.csv')
 st.dataframe(df)
 # Add 'hour' column to dataframe
@@ -185,7 +185,7 @@ with col2:
     st.pyplot(fig2)
     st.text("""There is not much difference in sales 
      across the 3 branches.The sales in
-     branch Yangon is a bit higher than
+     branch Mandalay is a bit higher than
      the rest of the branches.""")
 
 
