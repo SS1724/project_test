@@ -153,6 +153,7 @@ st.header("Correlation Of Variables")
 fig, ax = plt.subplots()
 sns.heatmap(df.corr(), ax=ax)
 st.write(fig)
+st.text("Both positive and negetive correlation is present between independent variables")
 #snow effect
 #st.snow()
 
